@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--   --------mark of section-------   -->
+    <title>Wilmer Kwodeevan</title>
+
+<!--   --------mark of section-------   -->
+    <link rel="stylesheet" href="./HOMEStyle.css" />
+
+<!--   --------mark of section-------   -->    
+    <link rel="icon" href="./assets/logo.png">
+
+  </head>
+  <body>
+
+
+<!--   --------mark of section-------   -->
+<div class="home1">
+  
+  <div class="wrapper">
+    <div class="text-box">
+      <div class="the-title">
+        <div class="title">Wilmer<br>Kwodeevan</div>
+      </div>
+      <p>
+        One Passionate individual, Wilmer Kwodeevan is currently a
+        student in Bina Nusantara University majoring in Computer
+        Science. He loves tech since he was still in sixth grade, starting
+        from the basic as Scratch, until now where he has made his own
+        video game. He is very passionate, motivated, and willing to do
+        the best
+      </p>
+      <br><a href="#teleport-here" class="button">Contact Me!</a>
+    </div>
+    <div class="image">
+          <img src="./assets/me B.jpg" alt="img nt fnd">
+        </div>
+
+    </div>
+    </div>
+
+<!--   --------mark of section-------   -->
+    <div class="home1a">
+      <div class="title1a">Portfolio Projects</div>
+    </div>
+    
+    <!--   --------mark of section-------   -->
+    <div class="home2d">
+      <div class="title">NetfliX - Simple Clone</div>
+
+      <div class="wrapper">
+        <img src="./assets/net0.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>React JS, Typesript, Bootstrap</p>
+        </div>
+        <br><a href="./ABOUT.html" class="button">Github ></a>
+      </div>
+
+    </div>
+    
+    <!--   --------mark of section-------   -->
+    <div class="home2">
+      <div class="title">JCC - Conference Center</div>
+      
+      <div class="wrapper">
+        <img src="./assets/jcc0.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>html, css, js</p>
+        </div>
+        <br><a href="./ABOUT.html" class="button">Github ></a>
+      </div>
+      
+    </div>
+    
+    <div class="home-more1">
+      <div class="wrapper">
+        <img src="./assets/jcc1.png" alt="">
+        <img src="./assets/jcc2.png" alt="">
+      </div>
+    </div>
+    
+    <!--   --------mark of section-------   -->
+    <div class="home2a">
+      <div class="title">Dunia Hijau</div>
+
+      <div class="wrapper">
+        <img src="./assets/dunhi0.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>UI/UX, figma</p>
+        </div>
+        <br><a href="./ABOUT.html" class="button">Github ></a>
+      </div>
+
+    </div>
+
+    <!--   --------mark of section-------   -->
+    <div class="home2b">
+      <div class="title">Calm - Mental Health</div>
+
+      <div class="wrapper">
+        <img src="./assets/calm0.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>UI/UX, figma</p>
+        </div>
+        <br><a href="./ABOUT.html" class="button">Github ></a>
+      </div>
+
+    </div>
+
+    <!--   --------mark of section-------   -->
+    <div class="home2c">
+      <div class="title">Rushdown - Simple Runner</div>
+
+      <div class="wrapper">
+        <img src="./assets/Rush-featured.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>C#, Unity</p>
+        </div>
+        <br><a href="./ABOUT.html" class="button">Github ></a>
+      </div>
+
+    </div>
+        
+    <div class="home-more2c">
+      <div class="wrapper">
+        <img src="./assets/code1.png" alt="">
+        <img src="./assets/code2.png" alt="">
+      </div>
+    </div>
+    <div class="home-more2c">
+      <div class="wrapper">
+        <img src="./assets/rd1.png" alt="">
+        <img src="./assets/Rush-promote-3.png" alt="">
+      </div>
+    </div>
+    
+    <!--   --------mark of section-------   -->
+    <div class="home2e" id="teleport-here">
+      <div class="title">Contact Me</div>
+
+      <div class="wrapper">
+        <img src="./assets/phone.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>Get in touch with me!</p>
+        </div>
+        <div class="buttonz">
+          <a href="https://github.com/Wilmer-Kwodee" class="button">Github ></a>
+          <a href="https://www.linkedin.com/in/wilmer-kwodeevan-5a4659248/" class="button">LinkedIn ></a>
+          <a href="mailto:wilmer.kwodeevan@binus.ac.id" class="button">Email ></a>
+        </div>
+      </div>
+
+    </div>
+
+<!--   --------mark of section-------   -->
+    <div class="footer">
+      <div class="nav-line">          
+      </div>
+
+      <div class="copyright">
+          All Rights Reserved. Copyright. Wilmer Kwodeevan.
+      </div>
+
+    </div>
+
+    <script>
+
+      // Animation
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          console.log(entry)
+          if(entry.isIntersecting){
+            entry.target.classList.add('show');
+          }
+          else{
+            entry.target.classList.remove('show');
+          }
+        });
+      });
+      const hiddenElements = document.querySelectorAll('.title');
+      hiddenElements.forEach((el) => observer.observe(el));
+
+      //nav bar hide when scrolling down
+      {
+        const nav = document.querySelector(".nav");
+        let lastScrollY = window.scrollY;
+  
+        window.addEventListener("scroll", () => {          
+          if(lastScrollY < window.scrollY){
+            nav.classList.add("nav--hidden");
+            // console.log("we are going down" + lastScrollY);
+          }
+          else{
+            nav.classList.remove("nav--hidden");
+            // console.log("we are going up" + lastScrollY);
+          }
+          lastScrollY = window.scrollY;
+        });
+      }
+
+    </script>
+
+  </body>
+</html>
