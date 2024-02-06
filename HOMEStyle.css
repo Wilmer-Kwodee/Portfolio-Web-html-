@@ -11,7 +11,7 @@ body {
 
 :root{
   /* --webFont: "Poppins"; */
-  --webFont: "Roboto";
+  --webFont: "Arial";
 }
 
 .nav {
@@ -621,6 +621,64 @@ body {
   }
 }
 
+/* NEW RESPONSIVE */
+@media (max-width: 412px) {
+  .home-more0{
+    display: none;
+  }
+  .home-more1{
+    display: none;
+  }
+  .home-more2c{
+    display: none;
+  }
+  img{
+    width: 300px;
+  }
+  .home1{
+    min-height: 1050px
+    /* height: 3000px; */
+  }
+  .home1 img{
+    margin-top: 25px;
+  }
+  .home1 p{
+    font-size: 15px;
+  }
+  .home1a{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .home2 .title{
+    font-size: 60px;
+  }
+  .buttonz{
+    flex-direction: column;
+  }
+  .home2d{
+    height: 700px;
+  }
+  .home2{
+    max-height: 900px;
+  }
+  .home2c{
+    min-height: 600px;
+  }
+  .home2e{
+    height: 700px;
+  }
+  .footer .copyright{
+    font-size: 20px;
+  }
+  .footer{
+    max-height: 200px;
+  }
+  .home2 .button{
+    order: 3;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
 
 
 /* RESPONSIVE DESIGN LOGIC */
@@ -789,18 +847,10 @@ body {
     font-size: 40px;
     width: 100%;
   }
-  .home1 img{
-    display: none;
-  }
 
   .home2{
     width: auto;
     height: 2200px;
-  }
-  .home2 .title{
-    padding-top: 50px;
-    font-size: 110px;
-    text-align: right;
   }
   .home2 img{
     order: 2;
@@ -816,11 +866,6 @@ body {
     order: 1;
     font-size: 40px;
     margin-bottom: 10%;
-  }
-  .home2 .button{
-    order: 3;
-    font-size: 50px;
-    padding: 35px;
   }
 
   .home3{
@@ -906,9 +951,6 @@ body {
   }
   .sm1 img, .sm2 img, .sm3 img{
     max-width: 55%;
-  }
-  .footer .copyright{
-    font-size: 25px;
   }
   .footer .foot-menu{
     display: flex; /* buat bikin nyamping */
