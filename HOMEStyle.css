@@ -636,8 +636,17 @@ body {
     width: 300px;
   }
   .home1{
-    min-height: 1050px
+    min-height: 900px
     /* height: 3000px; */
+  }
+  .home1 .the-title{
+    padding-top: 50px;
+  }
+  .home1 .the-br{
+    display: none;
+  }
+  .home1 .title{
+    font-size: 50px;
   }
   .home1 img{
     margin-top: 25px;
@@ -645,15 +654,21 @@ body {
   .home1 p{
     font-size: 15px;
   }
+  .home1 .button{
+    max-width: 270px;
+  }
   .home1a{
     padding-top: 50px;
     padding-bottom: 50px;
   }
   .home2 .title{
-    font-size: 60px;
+    font-size: 50px;
   }
   .buttonz{
     flex-direction: column;
+  }
+  .home2a{
+    min-height: 600px;
   }
   .home2d{
     height: 700px;
@@ -677,6 +692,9 @@ body {
     order: 3;
     font-size: 20px;
     padding: 15px;
+  }
+  .home2e .text-box{
+    margin-bottom: 10px;
   }
 }
 
@@ -833,10 +851,7 @@ body {
   .home1 .wrapper{
     flex-direction: column;
   }
-  .home1 .title{
-    padding-top: 200px;
-    font-size: 120px;
-  }
+
   .home1 .button{
     padding-top: 5%;
     padding-bottom: 5%;
@@ -982,10 +997,6 @@ body {
   }
   .home1{
     height: 800px;
-  }
-  .home1 .title{
-    padding-top: 100px;
-    font-size: 60px;
   }
   .home1 .button{
     font-size: 20px;
