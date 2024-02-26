@@ -36,7 +36,7 @@
       </p>
       <br class="the-br"><a href="#teleport-here" class="button">Contact Me!</a>
     </div>
-    <div class="image">
+    <div class="image contact">
           <img src="./assets/me B.jpg" alt="img nt fnd">
         </div>
 
@@ -46,6 +46,33 @@
 <!--   --------mark of section-------   -->
     <div class="home1a">
       <div class="title1a">Portfolio Projects</div>
+    </div>
+
+<!--   --------mark of section-------   -->
+     <div class="home2f">
+      <div class="title">Amazon Clone</div>
+
+      <div class="wrapper">
+        <img src="./assets/ama1.png" alt="img nt fnd">
+        <div class="text-box">
+          <p>React JS, Firebase, Stripe JS, React-Currency, Axios, Express, Cors</p>
+        </div>
+        <br><a href="https://github.com/Wilmer-Kwodee/Amazon-Clone" class="button">Github ></a>
+      </div>
+
+    </div>
+
+    <div class="home-more2f">
+      <div class="wrapper">
+        <img src="./assets/ama2.png" alt="">
+        <img src="./assets/ama3.png" alt="">
+      </div>
+    </div>
+    <div class="home-more2f">
+      <div class="wrapper">
+        <img src="./assets/ama4.png" alt="">
+        <img src="./assets/ama5.png" alt="">
+      </div>
     </div>
     
     <!--   --------mark of section-------   -->
@@ -150,7 +177,7 @@
       <div class="title">Contact Me</div>
 
       <div class="wrapper">
-        <img src="./assets/phone.png" alt="img nt fnd">
+        <img class="contact" src="./assets/phone.png" alt="img nt fnd">
         <div class="text-box">
           <p>Get in touch with me!</p>
         </div>
@@ -190,6 +217,8 @@
       });
       const hiddenElements = document.querySelectorAll('.title');
       hiddenElements.forEach((el) => observer.observe(el));
+      const hiddenElements2 = document.querySelectorAll('.contact');
+      hiddenElements2.forEach((el) => observer.observe(el));
 
       //nav bar hide when scrolling down
       {

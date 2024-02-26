@@ -101,12 +101,12 @@ body {
   color: #000000;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 80px;
+  font-size: 5rem;
 }
 .home1 .text{
   color: #000000;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .home1 .image img {
   width: 100%;
@@ -117,7 +117,7 @@ body {
 .home1 .text-box{
   color: #000000;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   width: 50%;
 
   /* for borderbox */
@@ -128,7 +128,7 @@ body {
 .home1 .button {
   color: #ffffff;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -148,15 +148,31 @@ body {
 .home-more0 .wrapper{
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 60px;
 }
 .home-more0 img{
   max-width: 600px;
   height: max-content;
 }
 
+.home-more2f{
+  background-color: rgb(57, 57, 57);
+  height: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 13%;
+}
+.home-more2f .wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.home-more2f img{
+  max-width: 600px;
+}
+
 .home1a{
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgb(56, 56, 56);
   padding-top: 4%;
   padding-left: 13%;
   padding-right: 13%;
@@ -165,7 +181,7 @@ body {
   color: #ffffff;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: left;
 }
 .home2{
@@ -188,7 +204,7 @@ body {
   color: #ffffff;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: right;
 }
 .home2 img{
@@ -204,12 +220,12 @@ body {
 .home2 .text-box{
   color: #ffffff;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .home2 .button{
   color: #000000; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -256,7 +272,7 @@ body {
   color: #1f5c2b;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: left;
 }
 .home2a img{
@@ -272,12 +288,12 @@ body {
 .home2a .text-box{
   color: #000000;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .home2a .button{
   color: #000000; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -290,7 +306,7 @@ body {
 .button2{
   color: #454545; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
 
@@ -320,7 +336,7 @@ body {
   color: #952020;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: right;
 }
 .home2b img{
@@ -336,12 +352,12 @@ body {
 .home2b .text-box{
   color: #000000;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .home2b .button{
   color: #000000; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -372,7 +388,7 @@ body {
   color: #007289;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: right;
 }
 .home2c img{
@@ -388,12 +404,12 @@ body {
 .home2c .text-box{
   color: #000000;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .home2c .button{
   color: #000000; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -439,7 +455,7 @@ body {
   color: #ff0000;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: right;
 }
 .home2d img{
@@ -455,12 +471,12 @@ body {
 .home2d .text-box{
   color: #ffffff;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .home2d .button{
   color: #000000; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -492,7 +508,7 @@ body {
   color: #ffffff;
   font-family: var(--webFont);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: right;
 }
 .home2e img{
@@ -509,13 +525,13 @@ body {
 .home2e .text-box{
   color: #ffffff;
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 100px;
 }
 .home2e .button{
   color: #000000; 
   font-family: var(--webFont);
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
@@ -530,6 +546,58 @@ body {
   justify-content: space-between;
 }
 
+
+.home2f{
+  background-image: url(./assets/histo.png);
+  background-color: rgb(56, 56, 56);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  height: 450px;
+  width: auto;
+
+  padding-top: 4%;
+  /* padding-bottom: 10%; */
+  padding-left: 13%;
+  padding-right: 13%;
+}
+.home2f .title{
+  color: rgb(255, 190, 69);
+  font-family: var(--webFont);
+  font-weight: bold;
+  font-size: 3.125rem;
+  text-align: right;
+}
+.home2f img{
+  max-width: 500px;
+  float: left;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+.home2f .wrapper{
+  margin: 60px auto;
+  width: 100%;
+}
+.home2f .text-box{
+  color: #ffffff;
+  font-family: var(--webFont);
+  font-size: 1.25rem;
+}
+.home2f .button{
+  color: #000000; 
+  font-family: var(--webFont);
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+
+  float: right;
+  padding: 15px 50px;
+  background: #ffffff;
+  border-radius: 30px;
+}
 
 .footer{
   background-color: #ffffff;
@@ -554,8 +622,8 @@ body {
 .footLogo img{
   /* for borderbox */
   width: 15%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 } 
 .footer .foot-container{
   /* for borderbox */
@@ -598,7 +666,7 @@ body {
 }
 
 /* animation stuff */
-.title{
+.title, .contact{
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
@@ -623,13 +691,7 @@ body {
 
 /* NEW RESPONSIVE */
 @media (max-width: 412px) {
-  .home-more0{
-    display: none;
-  }
-  .home-more1{
-    display: none;
-  }
-  .home-more2c{
+  .home-more0, .home-more1, .home-more2c, .home-more2f{
     display: none;
   }
   img{
@@ -670,7 +732,7 @@ body {
   .home2a{
     min-height: 600px;
   }
-  .home2d{
+  .home2d, .home2f{
     height: 700px;
   }
   .home2{
@@ -683,14 +745,14 @@ body {
     height: 700px;
   }
   .footer .copyright{
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .footer{
     max-height: 200px;
   }
   .home2 .button{
     order: 3;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 15px;
   }
   .home2e .text-box{
@@ -726,8 +788,8 @@ body {
     padding-top: 0px;
   }
   .nav-line {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   .home1{
@@ -744,14 +806,14 @@ body {
     max-height: 200px;
   }
   .home1 .button {
-    font-size: 20px;
+    font-size: 1.25rem;
   
     width: 60%;
     padding: 15px 50px;
   }
   
   .home2{
-    /* height: 620px; */
+    /* height: 61.25rem; */
   }
   .home2 .title{
     /* font-size: 40px; */
@@ -777,7 +839,7 @@ body {
     padding-left: 45px;
   }
   .cover img{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 1.25rem 1.25rem 0px 0px;
     border: 3px solid #000000;
     max-width: 1500px;
     max-height: 100%;
@@ -903,7 +965,7 @@ body {
     padding-left: 30px;
   }
   .cover img{
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 1.25rem 1.25rem 0px 0px;
     border: 3px solid #000000;
     max-width: 1500px;
     max-height: 100%;
@@ -999,7 +1061,7 @@ body {
     height: 800px;
   }
   .home1 .button{
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 300px;
   }
   .home1 .text-box{
@@ -1052,7 +1114,7 @@ body {
   cursor: pointer;
   opacity: 0;
   z-index: 2;
-  padding-left: 120px;
+  padding-left: 11.25rem;
 }
 
 .three-line{
@@ -1149,8 +1211,8 @@ ul {
 
 
 /* RESPONSIVE DESIGN LOGIC */
-/* @media (max-width: 1920px){
-  @media (max-width: 1920px){
+/* @media (max-width: 191.25rem){
+  @media (max-width: 191.25rem){
     .home1, .home2, .home3, .home4, .footer{
       width: auto;
     }
