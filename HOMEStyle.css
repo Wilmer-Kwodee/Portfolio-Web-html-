@@ -599,6 +599,13 @@ body {
   border-radius: 30px;
 }
 
+.homeStoregg{
+  background-color: purple;
+}
+.storeggPhoto{
+  border-radius: 30px;
+}
+
 .footer{
   background-color: #ffffff;
   /* background-image: linear-gradient(to right, #ffffff, #9e9e9e); */
